@@ -1,0 +1,92 @@
+body{
+	background: url(https://i.imgur.com/MJAkxbh.png);
+}	
+
+h1 .main{
+	font-size: 30px;
+} /* other size options */
+
+h1 .size{
+	font-size: 15px;
+} /* other size options may work */
+
+h1 p .monospace{
+	font-family: monospace;
+}
+
+p .container{
+	width:40%;
+	height:60%;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+nav p {
+	font-family: monospace;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+  
+nav ul li a {
+	display: block;
+	font-family: monospace;
+	color: white;
+	font-size: 14px;
+	padding: 21px 14px;
+	text-decoration: none;
+}
+
+nav ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+	background-color: #f3f3f3;
+}
+
+ul {
+	list-style-type: none;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+} /* Not working */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
